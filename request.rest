@@ -1,0 +1,28 @@
+GET http://localhost:5000/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsIm5hbWUiOiJhYnUiLCJlbWFpbCI6InJhc0BnbWFpbC5jb20iLCJpYXQiOjE3MDM1NzA0NDksImV4cCI6MTcwMzU3MDQ2OX0.J8vN0AV_Qp1q9Zt_-2K6D7XOh42hniKPAk91SZMQYA8
+
+###
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name": "abu dzar",
+    "email": "rasduba@gmail.com",
+    "password": "telkom",
+    "confPassword": "telkom"
+}
+
+###
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "email": "ras@gmail.com",
+    "password": "telkom"
+}
+
+###
+GET http://localhost:5000/token
+
+###
+DELETE  http://localhost:5000/logout
