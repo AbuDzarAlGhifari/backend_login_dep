@@ -1,12 +1,12 @@
 GET http://localhost:5000/users
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsIm5hbWUiOiJhYnUiLCJlbWFpbCI6InJhc0BnbWFpbC5jb20iLCJpYXQiOjE3MDQ5NTc0MDUsImV4cCI6MTcwNDk1NzQyNX0.ZM70fq2un22b5cX-4GREPhxrEW2cS-t6inniHMQUp7w
 ###
-POST http://localhost:5000/users
+POST http://localhost:4000/users
 Content-Type: application/json
 
 {
-    "name": "abu dzar",
-    "email": "rasduba@gmail.com",
+    "name": "tatang",
+    "email": "tatang@gmail.com",
     "password": "telkom",
     "confPassword": "telkom"
 }
